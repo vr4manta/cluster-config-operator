@@ -7,10 +7,10 @@ require (
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc
 	github.com/go-bindata/go-bindata v3.1.2+incompatible
 	github.com/openshift-eng/openshift-tests-extension v0.0.0-20250804142706-7b3ab438a292
-	github.com/openshift/api v0.0.0-20260429122012-1180c0f5c3e9
+	github.com/openshift/api v0.0.0-20260717133910-57eb58a15422
 	github.com/openshift/build-machinery-go v0.0.0-20250530140348-dc5b2804eeee
-	github.com/openshift/client-go v0.0.0-20260429123927-c81f86abfa6a
-	github.com/openshift/library-go v0.0.0-20260429171401-d45f1f2500c3
+	github.com/openshift/client-go v0.0.0-20260720094807-fbc45213df28
+	github.com/openshift/library-go v0.0.0-20260909144031-8fc95c63c590
 	github.com/spf13/cobra v1.10.0
 	github.com/spf13/pflag v1.0.9
 	github.com/stretchr/testify v1.11.1
@@ -122,3 +122,5 @@ require (
 
 // This replace is required for we use the OCP fork of Ginkgo.
 replace github.com/onsi/ginkgo/v2 => github.com/openshift/onsi-ginkgo/v2 v2.6.1-0.20241205171354-8006f302fd12
+
+replace github.com/openshift/api => github.com/vr4manta/api v0.0.0-20260804142043-4f1fc2ae3902
